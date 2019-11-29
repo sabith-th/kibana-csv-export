@@ -23,3 +23,7 @@ RUN rm -rf /usr/share/kibana/optimize
 ### Credits
 
 The original csv-export was created by [fbaligand](https://github.com/fbaligand/kibana/releases).
+
+### License
+
+[MIT](https://choosealicense.com/licenses/mit/)
