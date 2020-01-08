@@ -4,7 +4,7 @@ The csv_export folder contains a modified version of doc_table components compat
 
 Copy the contents of the folder to `kibana/src/ui/public/doc_table` and replace the existing files there. After that delete the `optimize` folder and the next time you run kibana, it will rebuild the components and the export feature will be available.
 
-I've used these components with Kibana OSS versions 6.3.x and 6.6.x as well without any issues. It should work with other kibana 6.x.x versions, but some modifications may be needed.
+Check out the other branches to see if the code there works with your version. Code on 6.8.x is not compatible with 6.6.x and below and vice-versa. If you run into any issue, just let me know and I might be able to help.
 
 I've created this patch since the csv export feature is not available in Kibana OSS versions and the csv patch maintained by [fbaligand](https://github.com/fbaligand/kibana/releases) is not compatible with Kibana 6.
 
