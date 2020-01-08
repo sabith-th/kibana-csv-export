@@ -1,10 +1,10 @@
 # Kibana CSV Export
 
-The csv_export folder contains a modified version of doc_table components compatible with Kibana OSS 6.3.0. This adds an export as csv feature to your searches in discover.
+The csv_export folder contains a modified version of doc_table components compatible with Kibana OSS 6.3.x. This adds an export as csv feature to your searches in discover.
 
 Copy the contents of the folder to `kibana/src/ui/public/doc_table` and replace the existing files there. After that delete the `optimize` folder and the next time you run kibana, it will rebuild the components and the export feature will be available.
 
-For 6.8.x versions, use the code from branch 6.8.0.
+This patch might work with other Kibana OSS upto 6.6.x, and for 6.8.x onwards you may use the code from 6.8.0 branch. If you run into any issue, just let me know and I might be able to help.
 
 I've created this patch since the csv export feature is not available in Kibana OSS versions and the csv patch maintained by [fbaligand](https://github.com/fbaligand/kibana/releases) is not compatible with Kibana 6.
 
